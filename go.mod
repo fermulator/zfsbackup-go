@@ -1,4 +1,4 @@
-module github.com/someone1/zfsbackup-go
+module github.com/fermulator/zfsbackup-go
 
 go 1.13
 
