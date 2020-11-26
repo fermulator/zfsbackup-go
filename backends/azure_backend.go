@@ -208,11 +208,6 @@ func (a *AzureBackend) Upload(ctx context.Context, vol *files.VolumeInfo) error 
 		return err
 	}
 
-	md5Raw, merr := hex.DecodeString(vol.MD5Sum)
-	if merr != nil {
-		return merr
-	}
-
     // https://github.com/someone1/zfsbackup-go/issues/45
     log.AppLogger.Debugf("azure backend: fermulator HACK i dont care")
 	return err
