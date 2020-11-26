@@ -42,7 +42,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/op/go-logging"
 
-	"github.com/someone1/zfsbackup-go/backends"
+	"github.com/fermulator/zfsbackup-go/backends"
 	"github.com/someone1/zfsbackup-go/backup"
 	"github.com/someone1/zfsbackup-go/cmd"
 	"github.com/someone1/zfsbackup-go/config"
