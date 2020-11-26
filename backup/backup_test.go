@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/someone1/zfsbackup-go/backends"
+	"github.com/fermulator/zfsbackup-go/backends"
 	"github.com/someone1/zfsbackup-go/files"
 )
 
