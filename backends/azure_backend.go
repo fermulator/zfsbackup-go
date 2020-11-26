@@ -214,14 +214,7 @@ func (a *AzureBackend) Upload(ctx context.Context, vol *files.VolumeInfo) error 
 	}
 
     // https://github.com/someone1/zfsbackup-go/issues/45
-    log.AppLogger.Debugf("azure backend: fermulator HACK i don't care")
-	// Finally, finalize the storage blob by giving Azure the block list order
-	//_, err = blobURL.CommitBlockList(
-	//	ctx, blockIDs, azblob.BlobHTTPHeaders{ContentMD5: md5Raw}, azblob.Metadata{}, azblob.BlobAccessConditions{}, azblob.AccessTierType{}, azblob.BlobTagsMap{},
-    //)
-	//if err != nil {
-	//	log.AppLogger.Debugf("azure backend: Error while finalizing volume %s - %v", vol.ObjectName, err)
-	//}
+    log.AppLogger.Debugf("azure backend: fermulator HACK i dont care")
 	return err
 }
 
