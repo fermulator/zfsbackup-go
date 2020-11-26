@@ -42,7 +42,7 @@ import (
 	"github.com/nightlyone/lockfile"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/someone1/zfsbackup-go/backends"
+	"github.com/fermulator/zfsbackup-go/backends"
 	"github.com/someone1/zfsbackup-go/config"
 	"github.com/someone1/zfsbackup-go/files"
 	"github.com/someone1/zfsbackup-go/log"
