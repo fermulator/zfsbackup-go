@@ -31,7 +31,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/someone1/zfsbackup-go/files"
+	"github.com/fermulator/zfsbackup-go/files"
 )
 
 var (

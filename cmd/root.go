@@ -38,11 +38,11 @@ import (
 	"golang.org/x/crypto/openpgp"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/someone1/zfsbackup-go/config"
-	"github.com/someone1/zfsbackup-go/files"
-	"github.com/someone1/zfsbackup-go/log"
-	"github.com/someone1/zfsbackup-go/pgp"
-	"github.com/someone1/zfsbackup-go/zfs"
+	"github.com/fermulator/zfsbackup-go/config"
+	"github.com/fermulator/zfsbackup-go/files"
+	"github.com/fermulator/zfsbackup-go/log"
+	"github.com/fermulator/zfsbackup-go/pgp"
+	"github.com/fermulator/zfsbackup-go/zfs"
 )
 
 var (

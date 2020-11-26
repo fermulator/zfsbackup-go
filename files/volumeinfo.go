@@ -45,9 +45,9 @@ import (
 	"golang.org/x/crypto/openpgp"
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/someone1/zfsbackup-go/config"
-	"github.com/someone1/zfsbackup-go/log"
-	"github.com/someone1/zfsbackup-go/pgp"
+	"github.com/fermulator/zfsbackup-go/config"
+	"github.com/fermulator/zfsbackup-go/log"
+	"github.com/fermulator/zfsbackup-go/pgp"
 )
 
 var (

@@ -30,10 +30,10 @@ import (
 	"strings"
 
 	"github.com/fermulator/zfsbackup-go/backends"
-	"github.com/someone1/zfsbackup-go/config"
-	"github.com/someone1/zfsbackup-go/files"
-	"github.com/someone1/zfsbackup-go/log"
-	"github.com/someone1/zfsbackup-go/zfs"
+	"github.com/fermulator/zfsbackup-go/config"
+	"github.com/fermulator/zfsbackup-go/files"
+	"github.com/fermulator/zfsbackup-go/log"
+	"github.com/fermulator/zfsbackup-go/zfs"
 )
 
 func prepareBackend(ctx context.Context, j *files.JobInfo, backendURI string, uploadBuffer chan bool) (backends.Backend, error) {

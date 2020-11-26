@@ -29,7 +29,7 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"golang.org/x/crypto/openpgp"
 
-	"github.com/someone1/zfsbackup-go/log"
+	"github.com/fermulator/zfsbackup-go/log"
 )
 
 var (

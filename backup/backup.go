@@ -43,10 +43,10 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/fermulator/zfsbackup-go/backends"
-	"github.com/someone1/zfsbackup-go/config"
-	"github.com/someone1/zfsbackup-go/files"
-	"github.com/someone1/zfsbackup-go/log"
-	"github.com/someone1/zfsbackup-go/zfs"
+	"github.com/fermulator/zfsbackup-go/config"
+	"github.com/fermulator/zfsbackup-go/files"
+	"github.com/fermulator/zfsbackup-go/log"
+	"github.com/fermulator/zfsbackup-go/zfs"
 )
 
 var (

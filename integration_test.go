@@ -43,11 +43,11 @@ import (
 	"github.com/op/go-logging"
 
 	"github.com/fermulator/zfsbackup-go/backends"
-	"github.com/someone1/zfsbackup-go/backup"
-	"github.com/someone1/zfsbackup-go/cmd"
-	"github.com/someone1/zfsbackup-go/config"
-	"github.com/someone1/zfsbackup-go/files"
-	"github.com/someone1/zfsbackup-go/log"
+	"github.com/fermulator/zfsbackup-go/backup"
+	"github.com/fermulator/zfsbackup-go/cmd"
+	"github.com/fermulator/zfsbackup-go/config"
+	"github.com/fermulator/zfsbackup-go/files"
+	"github.com/fermulator/zfsbackup-go/log"
 )
 
 const s3TestBucketName = "s3integrationbuckettest"
